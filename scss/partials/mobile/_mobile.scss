@@ -1,0 +1,27 @@
+//  Image for navigation
+
+@media screen and (max-width: 1244px) {
+  .navbar-brand > img {
+    width: 150px;
+  }
+}
+@media screen and (min-width: 1245px) {
+  .navbar-brand > img {
+    width: 250px;
+  }
+}
+@media screen and (min-width: 990px) and (max-width: 1178px) {
+  .navbar {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (min-width: 1030) and (max-width: 1178px) {
+  .navbar {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 1178px) and (max-width: 1280px) {
+  .navbar {
+    font-size: 0.8rem;
+  }
+}

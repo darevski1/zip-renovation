@@ -1,0 +1,23 @@
+.round-btn {
+  border-radius: 30px;
+}
+.main-btn {
+  background: $lightblue;
+  color: #ffffff;
+  border: $lightblue;
+  padding: 10px 20px;
+}
+.main-btn:hover {
+  background: #0895e3;
+  color: #ffffff;
+  border: $lightblue;
+  padding: 10px 20px;
+}
+.btn-p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.btn-p:hover {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
