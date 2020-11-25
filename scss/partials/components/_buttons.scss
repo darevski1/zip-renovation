@@ -21,3 +21,19 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+.max-300 {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.main-btn-xl {
+  background: $lightblue;
+  color: #ffffff;
+  border: $lightblue;
+  padding: 15px 120px;
+}
+.main-btn-xl:hover {
+  background: #0895e3;
+  color: #ffffff;
+  border: $lightblue;
+  padding: 15px 120px;
+}

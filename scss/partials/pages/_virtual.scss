@@ -1,0 +1,28 @@
+.main-virtual {
+  width: 100%;
+  min-height: 550px;
+}
+.main-virtual-cl {
+  width: 100%;
+  //   height: 750px;
+}
+.sm-titles {
+  font-size: 2.3rem;
+}
+.lft-block {
+  background: #0a9def;
+}
+.rgt-block {
+  background: #e2f6ff;
+}
+.wrap-text {
+  width: 70%;
+}
+@media screen and (max-width: 768px) {
+  .wrap-text {
+    width: 99%;
+  }
+  .min-h600 {
+    min-height: 400px;
+  }
+}
