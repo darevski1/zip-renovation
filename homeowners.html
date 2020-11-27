@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <!-- Fontawesome css -->
     <link rel="stylesheet" href="./assets/css/all.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Fontawesome js -->
     <script src="./assets/js/all.js"></script>
@@ -35,7 +37,7 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href=""> Virtual Estimate </a>
+                        <a class="nav-link" href="#"> Virtual Estimate </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"> Pre-Qualify for Loan </a>
@@ -60,101 +62,128 @@
             </div>
         </div>
     </nav>
-    <div class="main-virtual pt-4">
-        <div class="container-xl">
-            <div class="row">
-                <div class="col-lg-7 col-md-7 col-sm-12 p-3">
-                    <h2 class="bold sm-title">Request a <br />
-                        Virtual Renovation Estimate
-                    </h2>
-                    <p class="hero_p2">The Renovation Estimate Report will provide an estimate for the full renovation
-                        of
-                        your home.
-                        We will make a recommendation on which items would increase the value of your home the most.
-                        From there, you can choose the items that are important to you.</p>
-                    <p class="bold hero_p2">Benefits from ordering this report:</p>
-
-                    <ul class="list-unstyled">
-                        <li>
-                            <i class="fas fa-check"></i> Know what items in your home increase value the most
-                        </li>
-                        <li>
-                            <i class="fas fa-check"></i> Know renovation cost for planning purposes
-                        </li>
-                        <li>
-                            <i class="fas fa-check"></i> Use our estimate in negotiations with other contractors (if you
-                            decide not to go with one of
-                            our contractors)
-                        </li>
-                        <li>
-                            <i class="fas fa-check"></i> Utilize our experience for better planning of your renovation
-                        </li>
-                    </ul>
-                    <div class="d-flex flex-row bd-highlight">
-                        <div class="bd-highlight">
-                            <p class="sm-title">$75</p>
-                        </div>
-                        <div class="bd-highlight pt-2">
-                            <p class="sm-titles ml-5"><s>$125</s></p>
-                        </div>
-                    </div>
-                    <div class="wrap-text">
-                        <button class="btn btn-lg round-btn  main-btn btn-block btn-p mt-2" type="submit">Order
-                            Now</button>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-5 col-sm-12 ml-auto d-flex align-items-center mt-4 mt-md-0">
-                    <div class="col text-center">
-                        <img src="./assets/images/monitor.jpg" class="mx-auto d-block img-fluid">
-
-                    </div>
-                </div>
+    <div class="homeowners-hero">
+        <div class="homeowners d-flex justify-content-center align-items-center">
+            <div class="container-xl">
+                <h2 class="bold display-3 text-right contractor-h2">Homeowners</h2>
+                <h3 class="bold text-dark text-right">If you are a homeowner that has been postponing <br />that
+                    dream renovation, we are
+                    here to help.</h3>
+                </h3>
             </div>
         </div>
     </div>
 
-    <div class="main-virtual-cl mt-5 mb-5">
+    <div class="homeowners-block mb-5">
         <div class="container-fluid">
             <div class="row">
-                <div
-                    class="col-lg-7 col-md-7 col-sm-12 p-3 lft-block min-h600 themed-grid-col d-flex flex-column align-items-center justify-content-center">
+                <div class="col-md-6 col-sm-12 lblock-owners d-flex justify-content-center align-items-center">
                     <div class="wrap-text">
-                        <h2 class="bold sm-title text-center mb-5 w-text"> Download Our App</h2>
-
-                        <p class="hero_p2s bold mt-4 mb-5">To receive your Virtual Renovation Estimate, you'll be asked
+                        <p class="hero_p w-text">
+                            Homeowners If you are e homeowner that has been postponing that dream renovation, we are
+                            here
                             to
-                            upload
-                            images
-                            of your property to help us with your estimate. You can upload them from your
-                            desktop or from our App. </p>
+                            help. Most of the time, the renovation process is overwhelming and full of uncertainties. We
+                            are
+                            here to change that.
 
-                        <p class="hero_p2s bold mt-4">The App makes it simple to share your images, right from your
-                            phone. Add
-                            your
-                            phone number below and we'll send you the App. </p>
+                        </p>
+                        <p class="hero_p w-text mt-5">
+                            Our goal isto provide you with seamless, one-stop-shoprenovation services. This would
+                            include
+                            not only the renovation n work itself but a renovation loan if you needed it, as well as
+                            detailed estimates on the value of your home before and after renovation.
+                        </p>
+                        <p class="hero_p w-text mt-5">
+                            After the renovation, your opportunities are limitless -you can either refinance your home
+                            based
+                            on the new increased value and pay off the loan with us orcontinue making your renovation
+                            loan
+                            monthly payments with us.
+                        </p>
                     </div>
                 </div>
-                <div
-                    class="col-lg-5 col-md-5 col-sm-12 pt-4 min-h600 rgt-block ml-auto d-flex flex-column align-items-center justify-content-center pb-5 mt-md-0  ">
-                    <img src="./assets/images/phone.png" alt="" class="mx-auto d-block img-fluid">
-                    <div class="wrap-text">
-                        <form action="">
-                            <div class="form-group">
-                                <label for="phone">Phone number:</label>
-                                <input type="text" class="form-control">
+                <div class="col-md-6 col-sm-12 rblock-owners">
+                    <div class="container-xl">
+                        <h2 class="mt-5 text-center bold display-5 contractor-h2-s flsize">Summary of Benefits</h2>
+                    </div>
+                    <div class="container-xl d-flex flex-column justify-content-center align-items-center">
+                        <div class="block_bt mt-5 d-flex" data-aos="zoom-in-left">
+                            <div class="d-flex flex-row bd-highlight  justify-content-start align-items-center">
+                                <div class="p-2 bd-highlight"><span class="mr-3"> <i class="fas fa-check"></i> </span>
+                                </div>
+                                <div class="p-2 bd-highlight">
+                                    <h4 class="no-space bold h4-mobile">
+                                        Empower your client to increase home value, capture the potential equity, and
+                                        sell their
+                                        home for top price.
+                                    </h4>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <button class="btn btn-lg round-btn btn-block mt-4 main-btn btn-p" type="submit">Send
-                                </button>
+                        </div>
+
+                        <div class="block_bt mt-3 d-flex justify-content-start align-items-center"
+                            data-aos="zoom-in-left">
+                            <div class="d-flex flex-row bd-highlight  justify-content-start align-items-center">
+                                <div class="p-2 bd-highlight"><span> <i class="fas fa-check"></i> </span></div>
+                                <div class="p-2 bd-highlight">
+                                    <h4 class="no-space bold h4-mobile">
+                                        List a property that is fully renovated and staged.
+                                    </h4>
+                                </div>
                             </div>
-                        </form>
+                        </div>
+
+                        <div class="block_bt mt-3 d-flex justify-content-start align-items-center"
+                            data-aos="zoom-in-left">
+                            <div class="d-flex flex-row bd-highlight  justify-content-start align-items-center">
+                                <div class="p-2 bd-highlight"><span> <i class="fas fa-check"></i> </span></div>
+                                <div class="p-2 bd-highlight">
+                                    <h4 class="no-space bold h4-mobile">
+                                        Happier clients.
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block_bt mt-3 d-flex justify-content-start align-items-center"
+                            data-aos="zoom-in-left">
+                            <div class="d-flex flex-row bd-highlight  justify-content-start align-items-center">
+                                <div class="p-2 bd-highlight"><span> <i class="fas fa-check"></i> </span></div>
+                                <div class="p-2 bd-highlight">
+                                    <h4 class="no-space bold h4-mobile">
+                                        Increase your commission by higher sales price.
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block_bt mt-3 mb-5 d-flex justify-content-start align-items-center"
+                            data-aos="zoom-in-left">
+                            <div class="d-flex flex-row bd-highlight  justify-content-start align-items-center">
+                                <div class="p-2 bd-highlight"><span> <i class="fas fa-check"></i> </span></div>
+                                <div class="p-2 bd-highlight">
+                                    <h4 class="no-space bold h4-mobile">
+                                        Streamline home inspection process
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-lg round-btn  main-btn btn-p mt-2" type="submit">Contact Us
+                            </button>
+                        </div>
+                        <p class="mt-2">Sign in your homeowner account and see all the resources for homeowners.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    <div class="homeowners-sl">
+    </div>
     <div class="contact pt-5 mb-5">
+        <h2 class="mt-2 mb-2 text-center bold display-5 contractor-h2-s flsize">Contact us</h2>
+        <div class="hrblue mb-5 mt-3"></div>
+
         <div class="container-xl mt-2 mb-5">
             <div class="infoblock d-flex">
                 <div class="col-sm-12 col-md-5 col-ld-5">
@@ -168,7 +197,6 @@
                             </span></h2>
                         <button class="btn btn-small-mb btn-lg round-btn btn-block main-btn btn-p mt-5">Refer a home
                             owner</button>
-
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-7 col-ld-7 mtm-30">
@@ -227,6 +255,10 @@
         crossorigin="anonymous"></script>
     <!-- Link JS app file -->
     <script src="./assets/js/app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

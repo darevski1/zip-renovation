@@ -111,6 +111,81 @@ body {
   .min-h600 {
     min-height: 400px; } }
 
+.homeowners-hero {
+  width: 100%;
+  height: 700px;
+  background-image: url("./../../assets/images/homeowners.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-box-shadow: inset -1px 0px 30px -3px #c7c7c7;
+  -moz-box-shadow: inset -1px 0px 30px -3px #c7c7c7;
+  box-shadow: inset -1px 0px 30px -3px #c7c7c7;
+  object-fit: cover; }
+
+.homeowners {
+  min-height: 700px;
+  z-index: 1; }
+
+.homeowners-block {
+  width: 100%;
+  min-height: 500px;
+  background: #ffffff; }
+
+.lblock-owners {
+  background: #0a9def;
+  min-height: 520px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: -70px;
+  margin-bottom: -120px; }
+
+.rblock-owners {
+  min-height: 400px; }
+
+.homeowners-sl {
+  width: 100%;
+  height: 800px;
+  background-image: url("./../../assets/images/homeowners.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-box-shadow: inset -1px 0px 30px -3px #c7c7c7;
+  -moz-box-shadow: inset -1px 0px 30px -3px #c7c7c7;
+  box-shadow: inset -1px 0px 30px -3px #c7c7c7;
+  object-fit: cover; }
+
+.agents-hero {
+  width: 100%;
+  height: 700px;
+  background-image: url("./../../assets/images/agents.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  -webkit-box-shadow: inset -1px 0px 30px -3px #8c8c8c;
+  -moz-box-shadow: inset -1px 0px 30px -3px #8c8c8c;
+  box-shadow: inset -1px 0px 30px -3px #8c8c8c; }
+
+.agents {
+  min-height: 700px;
+  z-index: 1; }
+
+.inhouse {
+  width: 100%;
+  height: 800px;
+  background-image: url("./../../assets/images/house.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-box-shadow: inset -1px 0px 30px -3px #c7c7c7;
+  -moz-box-shadow: inset -1px 0px 30px -3px #c7c7c7;
+  box-shadow: inset -1px 0px 30px -3px #c7c7c7;
+  object-fit: cover; }
+
+.blockagents-nfo {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.intro-text {
+  min-height: 500px; }
+
 .hero_main {
   background-image: url("./../../assets/images/hero_main.jpg");
   height: 660px;
@@ -323,7 +398,7 @@ body {
   font-size: 3.7em; }
 
 .hero_p {
-  font-size: 2rem; }
+  font-size: 1.8rem; }
 
 .hero_p2 {
   font-size: 1.2rem; }
@@ -378,7 +453,7 @@ body {
 .card_title_text {
   font-size: 1.7rem; }
 
-.intro-text {
+.intro-t {
   font-size: 3.3rem; }
 
 .sm-title {
@@ -391,6 +466,15 @@ body {
   padding: 0;
   margin: 0; }
 
+.hrblue {
+  height: 5px;
+  width: 300px;
+  background: #0a9def;
+  margin: 0 auto; }
+
+.flsize {
+  font-size: 2.5rem; }
+
 @media screen and (max-width: 768px) {
   .hero_p2s {
     font-size: 1.1rem;
@@ -402,7 +486,9 @@ body {
   .hero_p {
     font-size: 1.5rem; }
   .hero_p2 {
-    font-size: 1.1rem; } }
+    font-size: 1.1rem; }
+  .flsize {
+    font-size: 1.6rem; } }
 
 label {
   display: inline-block;

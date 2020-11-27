@@ -25,7 +25,7 @@
   font-size: 3.7em;
 }
 .hero_p {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .hero_p2 {
   font-size: 1.2rem;
@@ -82,7 +82,7 @@
 .card_title_text {
   font-size: 1.7rem;
 }
-.intro-text {
+.intro-t {
   font-size: 3.3rem;
 }
 
@@ -95,6 +95,15 @@
 .no-space {
   padding: 0;
   margin: 0;
+}
+.hrblue {
+  height: 5px;
+  width: 300px;
+  background: $lightblue;
+  margin: 0 auto;
+}
+.flsize {
+  font-size: 2.5rem;
 }
 @media screen and (max-width: 768px) {
   .hero_p2s {
@@ -112,5 +121,8 @@
   }
   .hero_p2 {
     font-size: 1.1rem;
+  }
+  .flsize {
+    font-size: 1.6rem;
   }
 }
