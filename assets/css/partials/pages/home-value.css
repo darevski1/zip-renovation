@@ -1,0 +1,33 @@
+.home-value-hero {
+  width: 100%;
+  background-image: url("./../../assets/images/home-value.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  padding: 2rem; }
+
+.fronter {
+  z-index: 1; }
+
+.home-value {
+  z-index: 1; }
+
+.home-bg {
+  min-height: 700px;
+  background: rgba(1, 2, 2, 0.31);
+  border-radius: 20px; }
+
+@media screen and (max-width: 768px) {
+  .home-bg {
+    min-height: 200px;
+    background: rgba(1, 2, 2, 0.31);
+    z-index: 1;
+    border-radius: 20px;
+    margin-bottom: 100px; }
+  .home-value-hero {
+    padding: 0;
+    padding-bottom: 20px;
+    padding-top: 20px; } }
