@@ -1,0 +1,53 @@
+.selected-hero {
+  width: 100%;
+  height: 700px;
+  background-image: url("./../../assets/images/selected.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  object-fit: cover;
+  -webkit-box-shadow: inset -1px 0px 30px -3px rgba(140, 140, 140, 1);
+  -moz-box-shadow: inset -1px 0px 30px -3px rgba(140, 140, 140, 1);
+  box-shadow: inset -1px 0px 30px -3px rgba(140, 140, 140, 1);
+}
+.gallery-block-items {
+  border: 1px solid;
+  -webkit-box-shadow: 2px 2px 5px 0px #c9c9c9;
+  -moz-box-shadow: 2px 2px 5px 0px #c9c9c9;
+  box-shadow: 2px 2px 5px 0px #c9c9c9;
+  border: 1px solid #ebdcdc;
+}
+.btn-style {
+  border: 1px solid red;
+}
+.block-gallery {
+  width: 350px;
+  min-width: 240px;
+  height: 130px;
+  margin: 10px;
+}
+@media screen and(min-width: 700) and (max-width: 958) {
+  .block-gallery {
+    width: 150px;
+    min-width: 120px;
+    height: 150px;
+    margin: 10px;
+  }
+}
+@media screen and (min-width: 959px) and (max-width: 1120px) {
+  .block-gallery {
+    width: 300px;
+    min-width: 120px;
+    height: 100px;
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width: 1120px) and (max-width: 1300px) {
+  .block-gallery {
+    width: 250px;
+    min-width: 140px;
+    height: 100px;
+    margin: 10px;
+  }
+}
