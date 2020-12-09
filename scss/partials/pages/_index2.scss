@@ -1,12 +1,12 @@
-.hero_main {
-  padding-top: 8rem !important;
-  padding-bottom: 8rem !important;
-  height: 550px;
+.hero_main_one {
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+  height: unset;
+  object-fit: cover;
   background-position: right bottom;
-  margin-top: -21px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("./../../assets/images/hero_main.jpg");
+  background-image: url("./../../assets/images/hero_main_one.jpg");
 }
 .ph-font {
   font-size: 1.2rem;

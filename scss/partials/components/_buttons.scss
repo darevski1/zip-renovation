@@ -1,17 +1,30 @@
 .round-btn {
   border-radius: 30px;
 }
+.main-btn2 {
+  background: $lightblue;
+  color: #ffffff;
+  border: 1px solid $lightblue;
+  padding: 10px 20px;
+}
+.main-btn2:hover {
+  background: #0895e3;
+  color: #ffffff;
+  border: 1px solid $lightblue;
+  padding: 10px 20px;
+}
 .main-btn {
   background: $lightblue;
   color: #ffffff;
-  border: $lightblue;
-  padding: 10px 20px;
+  border: 1px solid $lightblue;
+  padding: 10px 18px;
 }
 .main-btn:hover {
-  background: #0895e3;
-  color: #ffffff;
-  border: $lightblue;
-  padding: 10px 20px;
+  background: #ffffff;
+  transition: background ease-out;
+  color: $lightblue;
+  border: 1px solid $lightblue;
+  padding: 10px 18px;
 }
 .btn-p {
   padding-top: 15px;
