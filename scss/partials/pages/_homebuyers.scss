@@ -1,13 +1,6 @@
 .home-buyers-hero {
   width: 100%;
   height: 700px;
-  background-image: url("./../../assets/images/homebuyer.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  -webkit-box-shadow: inset -1px 0px 30px -3px rgba(199, 199, 199, 1);
-  -moz-box-shadow: inset -1px 0px 30px -3px rgba(199, 199, 199, 1);
-  box-shadow: inset -1px 0px 30px -3px rgba(199, 199, 199, 1);
-  object-fit: cover;
 }
 .intro-text-homebuyer {
   background: #f1f4f6;
@@ -25,6 +18,15 @@
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
-  border: 1px solid #0a9def;
+  border: 2px solid #0a9def;
   padding-left: 20px;
+}
+.hbs {
+  width: 100%;
+  height: 100%;
+  background-image: url("./../../assets/images/Homebuyerspage2.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto auto;
 }

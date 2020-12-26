@@ -1,0 +1,1076 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <!-- Custom Css  -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <!-- Fontawesome css -->
+    <link rel="stylesheet" href="../assets/css/all.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../assets/css/select2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js"></script>
+    <!-- Fontawesome js -->
+    <script src="../assets/js/all.js"></script>
+    <title>Login</title>
+</head>
+
+
+<body class="d-flex flex-column h-100">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container-xl">
+            <a class="navbar-brand" href="#"><img src="../assets/images/logo-top.jpg" alt="My responsive image." /></a>
+            <button class="navbar-toggler blue_border" type="button" data-toggle="collapse"
+                data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span><i class="fas fa-bars blue size_menu"></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Virtual Estimate </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Pre-Qualify for Loan </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Referral Program </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> About Us </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Selected Work </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Other Services </a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn my-2 my-sm-0 round-btn main-btn ml-3" type="submit">Sign
+                        Up</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar" class="sidebar">
+            <ul class="nav" role="tablist">
+                <li class="nav-item w-100">
+                    <a href="#section-1" class="nav-link pl-3" role="tab" data-toggle="tab">Account Info</a>
+                </li>
+                <li class="nav-item w-100">
+                    <a href="#section-2" class="nav-link pl-3" role="tab" data-toggle="tab">Order Reports</a>
+                </li>
+                <div class="whiteline"></div>
+
+                <li class="nav-item w-100">
+                    <a href="#section-3" class="nav-link pl-3" role="tab" data-toggle="tab">Pre-Qualify for a Loan</a>
+                </li>
+                <li class="nav-item w-100">
+                    <a href="#section-4" class="nav-link pl-3" role="tab" data-toggle="tab">My Photos and videos</a>
+                </li>
+
+                <li class="nav-item w-100">
+                    <a href="#section-6" class="nav-link pl-3" role="tab" data-toggle="tab">Project Status</a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content" class="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button type="button" id="sidebarCollapse" class="btn main-btn nostyle" style="all: unset">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+            </nav>
+            <div class="tab-content tab-space">
+
+
+                <div class="tab-pane active" id="section-1">
+                    <h2 class="mb-4">My Account</h2>
+
+                    <p class="lead mb-5"> Add details, make payments or upload photos of your property with the
+                        tabs
+                        on this
+                        page.<br />
+                        You can also track the status of your project.
+                    </p>
+
+                    <div class="card mb-3 mb-lg-5 mt-1" id="edit">
+                        <!-- Header -->
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h6 class="card-header-title h5 no-space">Profile</h6>
+                            <div class="d-flex flex-row bd-highlight">
+                                <div class="bd-highlight col-sm-12 col-md-6 col">
+                                    <button class="btn btn-secondary round-btn mains-btn" id="edit_btn">Edit</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <!-- End Header -->
+
+                        <!-- Body -->
+                        <div class="card-body">
+                            <div class="d-flex flex-row">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="p-2 col-sm-12 col-md-6">
+                                            <ul class="list-unstyled list-unstyled-py-3 text-dark mb-3">
+                                                <li class="py-0">
+                                                    <small class="card-subtitle bold">First Name:</small>
+                                                </li>
+                                                <li>
+                                                    <i class="tio-user-outlined nav-icon"></i>
+                                                    Mark Williams
+                                                </li>
+                                                <li>
+                                                    <div class="light_blue_line mt-2 mb-2"></div>
+                                                </li>
+                                                <li class="py-0">
+                                                    <small class="card-subtitle bold">Last Name:</small>
+                                                </li>
+
+                                                <li>
+                                                    <i class="tio-user-outlined nav-icon"></i>
+                                                    Mark Williams
+                                                </li>
+                                                <div class="light_blue_line mt-2 mb-2"></div>
+
+                                                <li class="py-0">
+                                                    <small class="card-subtitle bold">Email:</small>
+                                                </li>
+                                                <li>
+                                                    <i class="tio-user-outlined nav-icon"></i>
+                                                    mail@example.com
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="p-2 bd-highlight col-sm-6 col">
+                                            <ul class="list-unstyled list-unstyled-py-3 text-dark mb-3">
+                                                <li class="py-0">
+                                                    <small class="card-subtitle bold">Phone:</small>
+                                                </li>
+                                                <li>
+                                                    <i class="tio-user-outlined nav-icon"></i>
+                                                    +323332233
+                                                </li>
+                                                <li>
+                                                    <div class="light_blue_line mt-2 mb-2"></div>
+                                                </li>
+                                                <li class="py-0">
+                                                    <small class="card-subtitle bold">Customer type:</small>
+                                                </li>
+
+                                                <li>
+                                                    <i class="tio-user-outlined nav-icon"></i>
+                                                    Home buyer
+                                                </li>
+                                                <div class="light_blue_line mt-2 mb-2"></div>
+
+                                                <li class="py-0">
+                                                    <small class="card-subtitle bold">Mailing Address:</small>
+                                                </li>
+
+                                                <li>
+                                                    <i class="tio-user-outlined nav-icon"></i>
+                                                    Please add your mailling address type:
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Body -->
+                    </div>
+
+                    <!-- Edit -->
+                    <div class="card mb-3 mb-lg-5 mt-1" id="preview">
+                        <!-- Header -->
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h6 class="card-header-title h5 no-space">Profile</h6>
+
+                            <div class="d-flex flex-row bd-highlight">
+                                <div class="bd-highlight col-sm-6 col">
+                                    <button class="btn btn-secondary round-btn w-btn" id="cancel">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row p-4">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="p-2 col-sm-12 col-md-6">
+                                        <ul class="list-unstyled list-unstyled-py-3 text-dark mb-3">
+                                            <li class="py-0">
+                                                <small class="card-subtitle bold ml-4">First Name:</small>
+                                            </li>
+                                            <li>
+                                                <div class="form-group">
+                                                    <input type="text" name="first_name" class="form-control"
+                                                        placeholder="Darko">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="light_blue_line mt-2 mb-2"></div>
+                                            </li>
+                                            <li class="py-0">
+                                                <small class="card-subtitle bold ml-4">Last Name:</small>
+                                            </li>
+
+                                            <li>
+                                                <div class="form-group">
+                                                    <input type="text" name="first_name" class="form-control"
+                                                        placeholder="Vuk">
+                                                </div>
+                                            </li>
+                                            <div class="light_blue_line mt-2 mb-2"></div>
+
+                                            <li class="py-0">
+                                                <small class="card-subtitle bold ml-4 ">Email:</small>
+                                            </li>
+                                            <li>
+                                                <div class="form-group ">
+                                                    <input type="email" disabled name="first_name" class="form-control"
+                                                        placeholder="mail@example.com">
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="p-2 col-sm-12 col-md-6 coll">
+                                        <ul class="list-unstyled list-unstyled-py-3 text-dark mb-3">
+                                            <li class="py-0">
+                                                <small class="card-subtitle bold ml-4">Phone:</small>
+                                            </li>
+                                            <li>
+                                                <div class="form-group">
+                                                    <input type="text" name="first_name" class="form-control"
+                                                        placeholder="+01010101">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="light_blue_line mt-2 mb-2"></div>
+                                            </li>
+                                            <li class="py-0">
+                                                <small class="card-subtitle bold ml-4">Customer type:</small>
+                                            </li>
+
+                                            <li>
+                                                <div class="form-group">
+                                                    <input type="text" disabled name="first_name" class="form-control"
+                                                        placeholder="Home buyer">
+                                                </div>
+                                            </li>
+                                            <div class="light_blue_line mt-2 mb-2"></div>
+
+                                            <li class="py-0">
+                                                <small class="card-subtitle bold ml-4">Mailing Address:</small>
+                                            </li>
+
+                                            <li>
+                                                <div class="form-group">
+                                                    <input type="text" name="first_name" class="form-control"
+                                                        placeholder="Home buyer">
+                                                </div>
+                                            </li>
+
+
+                                        </ul>
+
+                                    </div>
+                                    <div class="bd-highlight col-sm-6 col">
+                                        <button class="btn btn-secondary round-btn mains-btn">Save</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="mb-4">My Account - Change password</h2>
+                    <div class="card mb-3 mb-lg-5 mt-1">
+                        <!-- Header -->
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h6 class="card-header-title h5 no-space">Change Password</h6>
+                        </div>
+                        <div class="d-flex flex-row p-4">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="p-2 col-sm-12 col-md-6">
+                                        <ul class="list-unstyled list-unstyled-py-3 text-dark mb-3">
+                                            <li class="py-0">
+                                                <small class="card-subtitle bold ml-4">Old Password:</small>
+                                            </li>
+                                            <li>
+                                                <div class="form-group">
+                                                    <input type="password" name="password" class="form-control"
+                                                        placeholder="Darko">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="light_blue_line mt-2 mb-2"></div>
+                                            </li>
+                                            <li class="py-0">
+                                                <small class="card-subtitle bold ml-4">New Password:</small>
+                                            </li>
+
+                                            <li>
+                                                <div class="form-group">
+                                                    <input type="password" name="new_password" class="form-control"
+                                                        placeholder="Vuk">
+                                                </div>
+                                            </li>
+                                            <div class="light_blue_line mt-2 mb-2"></div>
+
+                                            <li class="py-0">
+                                                <small class="card-subtitle bold ml-4">Confirm Password:</small>
+                                            </li>
+                                            <li>
+                                                <div class="form-group">
+                                                    <input type="password" name="confirm_password" class="form-control"
+                                                        placeholder="mail@example.com">
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="col-sm-6 col no-glutters">
+                                            <button class="btn btn-secondary round-btn mains-btn">Save</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab-pane" id="section-2">
+                    <h2 class="mb-4">Available Reports</h2>
+                    <div class="card">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h6 class="card-header-title h5 no-space">Home Value Report</h6>
+                        </div>
+                        <div class="card-body">
+                            <p class="lead">
+                                Find out what your home is worth now and after renovation with this free report
+                            </p>
+                        </div>
+
+                        <div class="col-sm-4 mb-3">
+                            <button class="btn btn-secondary round-btn mains-btn">Home Value Report : Free</button>
+                        </div>
+
+                    </div>
+
+                    <div class="card mt-5">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h6 class="card-header-title h5 no-space">Home Renovation Report</h6>
+                        </div>
+                        <div class="card-body">
+                            <p class="lead">
+                                The Renovation Estimate Report will provide an estimate for the full renovation of
+                                your
+                                home. We
+                                will make a recommendation on which items would increase the value of your home the
+                                most. From
+                                there, you can choose the items that are important to you.
+                            </p>
+                            <div class="card-body">
+                                <button class="btn btn-secondary round-btn mains-btn">Home Value Report :
+                                    Free</button>
+                            </div>
+                            <h2 class="mb-2 mt-5">Benefits from ordering this report:</h2>
+                            <ul class="list-unstyled mt-3 mb-5">
+                                <li class="h5 d-flex align-items-center">
+                                    <i class="fas fa-check mr-2 "></i> Know what items in your home increase value
+                                    the
+                                    most.
+                                </li>
+                                <li class="h5 d-flex align-items-center">
+                                    <i class="fas fa-check mr-2"></i> Know renovation cost for financial planning
+                                    purposes.
+                                </li>
+                                <li class="h5 d-flex align-items-center">
+                                    <i class="fas fa-check mr-2"></i> Use our estimate in negotiations with other
+                                    contractors.
+                                    (if you
+                                    decide not to go with one of
+                                    our contractors).
+                                </li>
+                                <li class="h5 d-flex align-items-center">
+                                    <i class="fas fa-check mr-2"></i> Utilize our experience for better work planning of
+                                    your
+                                    renovation.
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="card p-3 mt-3  shadowpr">
+                        <small>Street Adress:</small>
+                        <div class="light_blue_line mt-2 mb-1"></div>
+                        <div class="row mt-2">
+                            <div class="col-md-9 col-sm-12 d-flex align-items-center">
+                                <h5 class="bold mt-2 greytxt">8181 Nowlin Rd</h5>
+                            </div>
+                            <div class="col-md-3 col-sm-12 d-flex justify-content-center align-items-center">
+                                <button class="btn btn-secondary btn-block round-btn mains-btn">Renovation Estimate:
+                                    $75</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-3 mt-3 shadowpr">
+                        <small>Street Adress:</small>
+                        <div class="light_blue_line mt-2 mb-1"></div>
+                        <div class="row mt-2">
+                            <div class="col-md-9 col-sm-12 d-flex align-items-center">
+                                <h5 class="bold mt-2 greytxt">9590 Depaul Dr</h5>
+                            </div>
+                            <div class="col-md-3 col-sm-12 d-flex justify-content-center align-items-center">
+                                <button class="btn btn-secondary btn-block round-btn mains-btn">Renovation Estimate:
+                                    $75</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-3 mt-3 shadowpr">
+                        <small>Street Adress:</small>
+                        <div class="light_blue_line mt-2 mb-1"></div>
+                        <div class="row mt-2">
+                            <div class="col-md-9 col-sm-12 d-flex align-items-center">
+                                <h5 class="bold mt-2 greytxt">3621 Avondale Ave</h5>
+                            </div>
+                            <div class="col-md-3 col-sm-12 d-flex justify-content-center align-items-center">
+                                <button class="btn btn-secondary btn-block round-btn mains-btn">Renovation Estimate:
+                                    $75</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab-pane" id="section-3">
+                    <!-- reposrt -->
+                    <h2 class="mb-4"> Pre-qualify for a Renovation Loan</h2>
+                    <p class="lead mb-5">
+                        You don't have to come out-of-pocket funds for the cost of renovation. You may be able to
+                        finance
+                        it. Our goal is to increase your equity far and above the cost of renovation. See how
+                        much
+                        you can borrow with a quick pre-qualification below.
+                    </p>
+
+
+                    <div class="card mb-3 mb-lg-5 mt-1" id="preview">
+                        <!-- Header -->
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h6 class="card-header-title h5 no-space">Pre-qualify for a Renovation Loan</h6>
+                        </div>
+                        <div class="card-body">
+
+                            <div class="d-flex flex-row">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <form class="regForm">
+                                                <div class="all-steps" id="all-steps"> <span class="step"></span>
+                                                    <span class="step"></span> <span class="step"></span>
+                                                </div>
+                                                <div class="tab">
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label for="Select Basement Condition"></label>
+                                                                    <select
+                                                                        class="select2-selection--single form-control"
+                                                                        name="state" style="width:100%;">
+                                                                        <option value="" disabled="" selected="">
+                                                                            Select
+                                                                            property address
+                                                                        </option>
+                                                                        <option value="">Finished</option>
+                                                                        <option value="">Unfinished</option>
+                                                                        <option value="">No Basement</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-12 mb-4 mt-4">
+                                                                <div class="p-3" style="border:0">
+                                                                    <h6
+                                                                        class="card-header-title h5 no-space placeholder">
+                                                                        or
+                                                                    </h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label for="name">Property
+                                                                        address:</label>
+                                                                    <input type="text" name="first_name"
+                                                                        class="form-control" id="">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label for="Select Property
+                                                                           Condition"></label>
+                                                                    <select
+                                                                        class="select2-selection--single form-control"
+                                                                        name="property_condition" style="width:100%;">
+                                                                        <option value="" disabled="" selected="">
+                                                                            Select
+                                                                            Property
+                                                                            Condition
+                                                                        </option>
+                                                                        <option value="">Poor</option>
+                                                                        <option value="">Outdated</option>
+                                                                        <option value="">Average</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+
+
+
+                                                            <div class="col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label for="Select Basement Condition"></label>
+                                                                    <select
+                                                                        class="select2-selection--single form-control"
+                                                                        name="state" style="width:100%;">
+                                                                        <option value="" disabled="" selected="">
+                                                                            Select
+                                                                            Basement
+                                                                            Condition
+                                                                        </option>
+                                                                        <option value="">Finished</option>
+                                                                        <option value="">Unfinished</option>
+                                                                        <option value="">No Basement</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+
+                                                <div class="tab">
+                                                    <div class="row">
+                                                        <div class="col-sm-12 mb-5">
+                                                            <div class="form-group">
+                                                                <label for="name">Existing mortgage(s)
+                                                                    balance:</label>
+                                                                <input type="text" name="first_name"
+                                                                    class="form-control" id="">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <button class="btn round-btn w-btn float-left">View
+                                                                    Report</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="thanks-message text-center" id="text-message"> <img
+                                                        src="../assets/images/logo-top.jpg" width="50%" class="mb-4">
+                                                    <h3>Thanks for your information!</h3> <span>Your information has
+                                                        been saved! we will
+                                                        contact you shortly!</span>
+
+                                                </div>
+                                                <div style="overflow:auto;" id="nextprevious">
+                                                    <div style="float:right;">
+                                                        <button type="button"
+                                                            class="btn round-btn w-btn float-left mr-3" id="prevBtn"
+                                                            onclick="nextPrev(-1)">Previous</button>
+                                                        <button type="button" id="nextBtn"
+                                                            class="btn round-btn mains-btn order-0"
+                                                            onclick="nextPrev(1)">Next</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="section-4">
+                    <h2 class="mb-4">My Photos and videos</h2>
+
+                    <div class="card mb-3 shadowpr">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label for="Select Basement Condition"></label>
+                                <select class="select2-selection--single form-control" name="state" style="width:100%;">
+                                    <option value="" disabled="" selected="">
+                                        Select
+                                        property address
+                                    </option>
+                                    <option value="">Finished</option>
+                                    <option value="">Unfinished</option>
+                                    <option value="">No Basement</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card shadow d-flex justify-content-center">
+                        <!-- nav options -->
+                        <ul class="nav nav-pills mb-3 shadow-sm" id="pills-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home"
+                                    role="tab" aria-controls="pills-home" aria-selected="true">Before
+                                    Renovation Photos
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"
+                                    role="tab" aria-controls="pills-profile" aria-selected="false">Before Renovation
+                                    Video
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-photo" data-toggle="pill" href="#pills-after-photo"
+                                    role="tab" aria-controls="pills-home" aria-selected="true">After
+                                    Renovation Photos
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-video" data-toggle="pill" href="#pills-after-video"
+                                    role="tab" aria-controls="pills-profile" aria-selected="false">After Renovation
+                                    Video
+                                </a>
+                            </li>
+                        </ul> <!-- content -->
+
+
+                        <div class="tab-content" id="pills-tabContent p-3">
+                            <!-- 1st card -->
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                aria-labelledby="pills-home-tab">
+                                <div class="row align-items-end ">
+                                    <!-- <div class="light_blue_line mb-5 mt-4"></div> -->
+                                    <div class="col-sm-12">
+                                        <div class="upload-btn-wrapper pl-3">
+                                            <button class="btn">Upload a photos</button>
+                                            <input type="file" name="myfile" />
+                                        </div>
+                                    </div>
+                                    <div class="p-1 col-sm-12 align-baseline mb-5 pl-4">
+                                        <p>Uploading:</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 25%;"
+                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                                        </div>
+                                    </div>
+                                    <div class="row text-center text-lg-left photos p-2">
+
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <a href="../assets/gallery/p_1/img-4.jpg" class="d-block mb-4 h-100"
+                                                data-lightbox="photos">
+                                                <img class="img-fluid img-thumbnail"
+                                                    src="../assets/gallery/p_1/img-4.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <a href="../assets/gallery/p_1/img-4.jpg" class="d-block mb-4 h-100"
+                                                data-lightbox="photos">
+                                                <img class="img-fluid img-thumbnail"
+                                                    src="../assets/gallery/p_1/img-4.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <a href="../assets/gallery/p_1/img-2.jpg" class="d-block mb-4 h-100"
+                                                data-lightbox="photos">
+                                                <img class="img-fluid img-thumbnail"
+                                                    src="../assets/gallery/p_1/img-2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <a href="../assets/gallery/p_1/img.jpg" class="d-block mb-4 h-100"
+                                                data-lightbox="photos">
+                                                <img class="img-fluid img-thumbnail" src="../assets/gallery/p_1/img.jpg"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <a href="../assets/gallery/p_1/img-4.jpg" class="d-block mb-4 h-100"
+                                                data-lightbox="photos">
+                                                <img class="img-fluid img-thumbnail"
+                                                    src="../assets/gallery/p_1/img-4.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <a href="../assets/gallery/p_1/img-1.jpg" class="d-block mb-4 h-100"
+                                                data-lightbox="photos">
+                                                <img class="img-fluid img-thumbnail"
+                                                    src="../assets/gallery/p_1/img-1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <a href="../assets/gallery/p_1/img-2.jpg" class="d-block mb-4 h-100"
+                                                data-lightbox="photos">
+                                                <img class="img-fluid img-thumbnail"
+                                                    src="../assets/gallery/p_1/img-3.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <a href="../assets/gallery/p_1/img-2.jpg" class="d-block mb-4 h-100"
+                                                data-lightbox="photos">
+                                                <img class="img-fluid img-thumbnail"
+                                                    src="../assets/gallery/p_1/img-2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <a href="../assets/gallery/p_1/img.jpg" class="d-block mb-4 h-100"
+                                                data-lightbox="photos">
+                                                <img class="img-fluid img-thumbnail" src="../assets/gallery/p_1/img.jpg"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div> <!-- 2nd card -->
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                aria-labelledby="pills-profile-tab">
+                                <div class="row align-items-end">
+                                    <!-- <div class="light_blue_line mb-5 mt-4"></div> -->
+                                    <div class="col-sm-12">
+                                        <div class="upload-btn-wrapper pl-3">
+                                            <button class="btn">Upload a videos</button>
+                                            <input type="file" name="myfile" />
+                                        </div>
+                                    </div>
+                                    <div class="p-1 col-sm-12 align-baseline mb-5 pl-4">
+                                        <p>Uploading:</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 25%;"
+                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                                        </div>
+                                    </div>
+                                    <div class="row text-center text-lg-left photos">
+
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <video width="320" height="240" controls>
+                                                <source src=”http://techslides.com/demos/sample-videos/small.ogv”
+                                                    type=video/ogg>
+                                                <source src="../assets/upload/video/56585658.mp4" type=video/mp4>
+                                            </video>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <video width="320" height="240" controls>
+                                                <source src=”http://techslides.com/demos/sample-videos/small.ogv”
+                                                    type=video/ogg>
+                                                <source src="../assets/upload/video/235648.mp4" type=video/mp4>
+                                            </video>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <video width="320" height="240" controls>
+                                                <source src=”http://techslides.com/demos/sample-videos/small.ogv”
+                                                    type=video/ogg>
+                                                <source src="../assets/upload/video/8565456.mp4" type=video/mp4>
+                                            </video>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <video width="320" height="240" controls>
+                                                <source src=”http://techslides.com/demos/sample-videos/small.ogv”
+                                                    type=video/ogg>
+                                                <source src="../assets/upload/video/video.mp4" type=video/mp4>
+                                            </video>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div> <!-- 3nd card -->
+                            <div class="tab-pane fade show" id="pills-after-photo" role="tabpanel"
+                                aria-labelledby="pills-home-tab">
+                                <div class="row align-items-end">
+                                    <!-- <div class="light_blue_line mb-5 mt-4"></div> -->
+                                    <div class="col-sm-12">
+                                        <div class="upload-btn-wrapper pl-3">
+                                            <button class="btn">Upload a photos</button>
+                                            <input type="file" name="myfile" />
+                                        </div>
+                                    </div>
+                                    <div class="p-1 col-sm-12 align-baseline pl-4">
+                                        <p>Uploading:</p>
+                                        <div class="progress mb-5">
+                                            <div class="progress-bar" role="progressbar" style="width: 25%;"
+                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                                        </div>
+                                    </div>
+                                    <div class="row text-center text-lg-left photos">
+
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <a href="../assets/gallery/p_1/img-4.jpg" class="d-block mb-4 h-100"
+                                                data-lightbox="photos">
+                                                <img class="img-fluid img-thumbnail"
+                                                    src="../assets/gallery/p_1/img-4.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <a href="../assets/gallery/p_1/img-4.jpg" class="d-block mb-4 h-100"
+                                                data-lightbox="photos">
+                                                <img class="img-fluid img-thumbnail"
+                                                    src="../assets/gallery/p_1/img-4.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <a href="../assets/gallery/p_1/img-2.jpg" class="d-block mb-4 h-100"
+                                                data-lightbox="photos">
+                                                <img class="img-fluid img-thumbnail"
+                                                    src="../assets/gallery/p_1/img-2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <a href="../assets/gallery/p_1/img.jpg" class="d-block mb-4 h-100"
+                                                data-lightbox="photos">
+                                                <img class="img-fluid img-thumbnail" src="../assets/gallery/p_1/img.jpg"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <a href="../assets/gallery/p_1/img-4.jpg" class="d-block mb-4 h-100"
+                                                data-lightbox="photos">
+                                                <img class="img-fluid img-thumbnail"
+                                                    src="../assets/gallery/p_1/img-4.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <a href="../assets/gallery/p_1/img-1.jpg" class="d-block mb-4 h-100"
+                                                data-lightbox="photos">
+                                                <img class="img-fluid img-thumbnail"
+                                                    src="../assets/gallery/p_1/img-1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <a href="../assets/gallery/p_1/img-2.jpg" class="d-block mb-4 h-100"
+                                                data-lightbox="photos">
+                                                <img class="img-fluid img-thumbnail"
+                                                    src="../assets/gallery/p_1/img-3.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <a href="../assets/gallery/p_1/img-2.jpg" class="d-block mb-4 h-100"
+                                                data-lightbox="photos">
+                                                <img class="img-fluid img-thumbnail"
+                                                    src="../assets/gallery/p_1/img-2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <a href="../assets/gallery/p_1/img.jpg" class="d-block mb-4 h-100"
+                                                data-lightbox="photos">
+                                                <img class="img-fluid img-thumbnail" src="../assets/gallery/p_1/img.jpg"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- 2nd card -->
+                            <div class="tab-pane fade" id="pills-after-video" role="tabpanel"
+                                aria-labelledby="pills-profile-tab">
+                                <div class="row align-items-end">
+                                    <!-- <div class="light_blue_line mb-5 mt-4"></div> -->
+                                    <div class="col-sm-12">
+                                        <div class="upload-btn-wrapper pl-3">
+                                            <button class="btn">Upload a videos</button>
+                                            <input type="file" name="myfile" />
+                                        </div>
+                                    </div>
+                                    <div class="p-1 col-sm-12 align-baseline mb-5 pl-4">
+                                        <p>Uploading:</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 25%;"
+                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                                        </div>
+                                    </div>
+                                    <div class="row text-center text-lg-left photos">
+
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <video width="320" height="240" controls>
+                                                <source src=”http://techslides.com/demos/sample-videos/small.ogv”
+                                                    type=video/ogg>
+                                                <source src="../assets/upload/video/56585658.mp4" type=video/mp4>
+                                            </video>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <video width="320" height="240" controls>
+                                                <source src=”http://techslides.com/demos/sample-videos/small.ogv”
+                                                    type=video/ogg>
+                                                <source src="../assets/upload/video/235648.mp4" type=video/mp4>
+                                            </video>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <video width="320" height="240" controls>
+                                                <source src=”http://techslides.com/demos/sample-videos/small.ogv”
+                                                    type=video/ogg>
+                                                <source src="../assets/upload/video/8565456.mp4" type=video/mp4>
+                                            </video>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-6">
+                                            <video width="320" height="240" controls>
+                                                <source src=”http://techslides.com/demos/sample-videos/small.ogv”
+                                                    type=video/ogg>
+                                                <source src="../assets/upload/video/video.mp4" type=video/mp4>
+                                            </video>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div> <!-- 3nd card -->
+
+                        </div>
+                    </div>
+                </div>
+                <!-- after -->
+
+
+                <div class="tab-pane" id="section-6">
+                    <div class="container py-5 w-100">
+                        <div class="d-flex justify-content-center align-items-center">
+
+                            <div class="w-circle-100 d-flex justify-content-center align-items-end">
+                                <h6 class="text-center nb-100p">Estimate</h6>
+
+                                <div class="active-as"></div>
+                            </div>
+                            <div class="contet-line"></div>
+                            <div class="w-circle-100 d-flex justify-content-center align-items-end">
+                                <h6 class="text-center nb-100p">Renovation Work</h6>
+                            </div>
+                            <div class="contet-line"></div>
+                            <div class="w-circle-100 d-flex justify-content-center align-items-end">
+                                <h6 class="text-center nb-100p">Listed for sale</h6>
+                            </div>
+                            <div class="contet-line"></div>
+                            <div class="w-circle-100 d-flex justify-content-center align-items-end">
+                                <h6 class="text-center nb-100p">Sold</h6>
+                            </div>
+                            <div class="contet-line"></div>
+                            <div class="w-circle-100 d-flex justify-content-center align-items-end">
+                                <h6 class="text-center nb-100p">Staging</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container h-100 mt-5 w-75 max-h-450">
+                        <div class="row justify-content-center h-100">
+                            <div class="col-sm-12 chat">
+                                <div class="card">
+                                    <div class="card-header msg_head">
+                                        <div class="d-flex bd-highlight">
+
+                                            <div class="user_info">
+                                                <span>Chat with James</span>
+                                                <p>1767 Messages</p>
+                                            </div>
+                                        </div>
+                                        <span id="action_menu_btn"><i class="fas fa-ellipsis-v"></i></span>
+                                    </div>
+                                    <div class="card-body msg_card_body">
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="input-group">
+
+                                            <textarea name="" class="form-control type_msg"
+                                                placeholder="Type your message..."></textarea>
+                                            <div class="input-group-append">
+                                                <span class="input-group-text send_btn">Send</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <footer class="footer mt-auto d-flex justify-content-center align-items-center">
+                <div class="container">
+                    <ul class="list-inline botton-zero">
+                        <li class="list-inline-item"><a href="#">Terms of Service</a></li>
+                        <li class="list-inline-item">|</li>
+                        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                        <li class="list-inline-item">|</li>
+
+                        <li class="list-inline-item"> Copyright© Ziprenovation 2020 </li>
+                    </ul>
+                </div>
+            </footer>
+            <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+                crossorigin="anonymous"></script>
+            <!-- Link JS app file -->
+            <script src="../assets/js/app.js"></script>
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+
+
+
+            <script type="text/javascript">
+                $.noConflict();
+                AOS.init();
+                $(document).ready(function () {
+                    $('#sidebarCollapse').on('click', function () {
+                        $('#sidebar').toggleClass('active');
+                    });
+                });
+
+                $('.nav li a').click(function () {
+                    $('.nav li a').removeClass('sideactive')
+                    $(this).addClass('sideactive');
+                });
+
+                // step form
+                $(document).ready(function () {
+                    $("#preview").hide();
+                    $("#edit_btn").click(function () {
+                        $("#edit").hide();
+                        $("#preview").show();
+                    });
+                    $("#cancel").click(function () {
+                        $("#preview").hide();
+                        $("#edit").show();
+                    });
+                });
+                // select 2
+                $(document).ready(function () {
+                    $('.select2-selection--single').select2(
+                        {
+                            minimumResultsForSearch: -1,
+                            dropdownAutoWidth: true
+                        }
+                    );
+                });
+
+            </script>
+
+</body>
+
+</html>

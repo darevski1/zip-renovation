@@ -88,7 +88,24 @@
 }
 .pointer {
   cursor: pointer;
+  color: $lightblue;
+}
+.greytxt {
+  color: rgb(60, 60, 60);
+}
+.pointer p {
   color: #000;
+}
+.pactive {
+  background: $lightblue;
+  color: #ffffff;
+}
+.pointer:visited {
+  background: $lightblue;
+  color: #ffffff;
+}
+.pointer:hover p {
+  color: #ffffff;
 }
 .pointer:hover {
   background: $lightblue;
@@ -103,7 +120,10 @@
   font-size: 3rem;
 }
 .intro-t {
-  font-size: 3.3rem;
+  font-size: 38px;
+}
+.card_head_hext {
+  color: $lightblue;
 }
 .sm-title-sm {
   font-size: 3rem;
@@ -133,6 +153,9 @@
 .max-300hs {
   max-width: 300px;
 }
+.uppfont {
+  text-transform: uppercase;
+}
 @media screen and (max-width: 768px) {
   .hero_p2s {
     font-size: 1.1rem;
@@ -158,5 +181,14 @@
   }
   .mb-5mobile {
     margin-bottom: 20px;
+  }
+  .mob_heading {
+    font-size: 1.3rem;
+  }
+  .btn_mob {
+    font-size: 1.2rem;
+  }
+  .intro-t {
+    font-size: 1.5rem;
   }
 }

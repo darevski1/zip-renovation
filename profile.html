@@ -66,10 +66,6 @@
     <div class="wrapper">
         <!-- Sidebar  -->
         <nav id="sidebar" class="sidebar">
-            <div class="sidebar-header">
-                <h3>Ziprenovation</h3>
-            </div>
-
             <ul class="nav" role="tablist">
                 <li class="nav-item w-100">
                     <a href="#section-1" class="nav-link pl-3" role="tab" data-toggle="tab">Section 1</a>
@@ -97,9 +93,9 @@
         <div id="content" class="content">
 
             <nav class="navbar navbar-expand-lg navbar-light">
-                <button type="button" id="sidebarCollapse" class="btn main-btn">
-                    <i class="fas fa-align-left"></i>
-                    <span>Side Nav</span>
+                <button type="button" id="sidebarCollapse" class="btn main-btn nostyle" style="all: unset">
+                    <i class="far fa-arrow-alt-circle-left" id="btn-left"></i>
+                    <i class="far fa-arrow-alt-circle-right" id="btn-right"></i>
                 </button>
                 <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -163,7 +159,14 @@
                 $('#sidebar').toggleClass('active');
             });
         });
+
+
+        $('.nav li a').click(function () {
+            $('.nav li a').removeClass('sideactive')
+            $(this).addClass('sideactive');
+        });
     </script>
+
 </body>
 
 </html>

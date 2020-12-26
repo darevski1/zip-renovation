@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <!-- Custom Css  -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- Fontawesome css -->
+    <link rel="stylesheet" href="./assets/css/all.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./assets/css/select2.css">
+    <!-- Fontawesome js -->
+    <script src="./assets/js/all.js"></script>
+    <title>Login</title>
+</head>
+
+
+<body class="d-flex flex-column h-100">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container-xl">
+            <a class="navbar-brand" href="#"><img src="./assets/images/logo-top.jpg" alt="My responsive image." /></a>
+            <button class="navbar-toggler blue_border" type="button" data-toggle="collapse"
+                data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span><i class="fas fa-bars blue size_menu"></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Virtual Estimate </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Pre-Qualify for Loan </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Referral Program </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> About Us </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Selected Work </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Other Services </a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-secondary my-2 my-sm-0 round-btn main-btn ml-3" type="submit">Sign
+                        Up</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar" class="sidebar">
+            <ul class="nav" role="tablist">
+                <li class="nav-item w-100">
+                    <a href="#section-1" class="nav-link pl-3" role="tab" data-toggle="tab">Account Info</a>
+                </li>
+                <div class="whiteline"></div>
+                <li class="nav-item w-100">
+                    <a href="#section-2" class="nav-link pl-3" role="tab" data-toggle="tab">Order Reports</a>
+                </li>
+                <div class="whiteline"></div>
+
+                <li class="nav-item w-100">
+                    <a href="#section-3" class="nav-link pl-3" role="tab" data-toggle="tab">Pre-Qualify for a Loan</a>
+                </li>
+                <li class="nav-item w-100">
+                    <a href="#section-4" class="nav-link pl-3" role="tab" data-toggle="tab">Upload Photos/Videos</a>
+                </li>
+                <li class="nav-item w-100">
+                    <a href="#section-5" class="nav-link pl-3" role="tab" data-toggle="tab">My Photos/Videos</a>
+                </li>
+                <li class="nav-item w-100">
+                    <a href="#section-6" class="nav-link pl-3" role="tab" data-toggle="tab">Project Status</a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content" class="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button type="button" id="sidebarCollapse" class="btn main-btn nostyle" style="all: unset">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+            </nav>
+            <div class="tab-content tab-space">
+                <div class="tab-pane active" id="section-1">
+                    <h2 class="mb-2">My Account</h2>
+
+                    <p> Please add details, make payments or upload photos of your property with the tabs on this
+                        page.
+                        You can also track the status of your project.
+                    </p>
+
+                    <div class="card mb-3 mb-lg-5 mt-1" id="edit">
+                        <!-- Header -->
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h6 class="card-header-title h5 no-space">Profile</h6>
+                            <div class="d-flex flex-row bd-highlight">
+                                <div class="bd-highlight col-sm-12 col-md-6 col">
+                                    <button class="btn btn-secondary round-btn mains-btn" id="edit_btn">Edit</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <!-- End Header -->
+
+                        <!-- Body -->
+                        <div class="card-body">
+
+                            <div class="d-flex flex-row ">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="p-2 col-sm-12 col-md-6 col">
+                                            <ul class="list-unstyled list-unstyled-py-3 text-dark mb-3">
+                                                <li class="py-0">
+                                                    <small class="card-subtitle bold">First Name:</small>
+                                                </li>
+                                                <li>
+                                                    <i class="tio-user-outlined nav-icon"></i>
+                                                    Mark Williams
+                                                </li>
+                                                <li>
+                                                    <div class="light_blue_line mt-2 mb-2"></div>
+                                                </li>
+                                                <li class="py-0">
+                                                    <small class="card-subtitle bold">Last Name:</small>
+                                                </li>
+
+                                                <li>
+                                                    <i class="tio-user-outlined nav-icon"></i>
+                                                    Mark Williams
+                                                </li>
+                                                <div class="light_blue_line mt-2 mb-2"></div>
+
+                                                <li class="py-0">
+                                                    <small class="card-subtitle bold">Email:</small>
+                                                </li>
+                                                <li>
+                                                    <i class="tio-user-outlined nav-icon"></i>
+                                                    mail@example.com
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="p-2 bd-highlight col-sm-6 col">
+                                            <ul class="list-unstyled list-unstyled-py-3 text-dark mb-3">
+                                                <li class="py-0">
+                                                    <small class="card-subtitle bold">Phone:</small>
+                                                </li>
+                                                <li>
+                                                    <i class="tio-user-outlined nav-icon"></i>
+                                                    +323332233
+                                                </li>
+                                                <li>
+                                                    <div class="light_blue_line mt-2 mb-2"></div>
+                                                </li>
+                                                <li class="py-0">
+                                                    <small class="card-subtitle bold">Customer type:</small>
+                                                </li>
+
+                                                <li>
+                                                    <i class="tio-user-outlined nav-icon"></i>
+                                                    Home buyer
+                                                </li>
+                                                <div class="light_blue_line mt-2 mb-2"></div>
+
+                                                <li class="py-0">
+                                                    <small class="card-subtitle bold">Email:</small>
+                                                </li>
+                                                <li>
+                                                    <i class="tio-user-outlined nav-icon"></i>
+                                                    mail@example.com
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Body -->
+                    </div>
+
+                    <!-- Edit -->
+                    <div class="card mb-3 mb-lg-5 mt-1" id="preview">
+                        <!-- Header -->
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h6 class="card-header-title h5 no-space">Profile</h6>
+
+                            <div class="d-flex flex-row bd-highlight">
+                                <div class="bd-highlight col-sm-6 col">
+                                    <button class="btn btn-secondary round-btn w-btn float-right"
+                                        id="cancel">Cancel</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row ">
+                            <div class="row">
+                                <div class="p-2 col-sm-12 col-md-6 col">
+                                    <ul class="list-unstyled list-unstyled-py-3 text-dark mb-3">
+                                        <li class="py-0">
+                                            <small class="card-subtitle bold">First Name:</small>
+                                        </li>
+                                        <li>
+                                            <div class="form-group input-group-sm">
+                                                <input type="text" name="first_name" class="form-control"
+                                                    placeholder="Darko">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="light_blue_line mt-2 mb-2"></div>
+                                        </li>
+                                        <li class="py-0">
+                                            <small class="card-subtitle bold">Last Name:</small>
+                                        </li>
+
+                                        <li>
+                                            <div class="form-group input-group-sm">
+                                                <input type="text" name="first_name" class="form-control"
+                                                    placeholder="Vuk">
+                                            </div>
+                                        </li>
+                                        <div class="light_blue_line mt-2 mb-2"></div>
+
+                                        <li class="py-0">
+                                            <small class="card-subtitle bold">Email:</small>
+                                        </li>
+                                        <li>
+                                            <div class="form-group input-group-sm">
+                                                <input type="email" disabled name="first_name" class="form-control"
+                                                    placeholder="mail@example.com">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="p-2 col-sm-12 col-md-6 coll">
+                                    <ul class="list-unstyled list-unstyled-py-3 text-dark mb-3">
+                                        <li class="py-0">
+                                            <small class="card-subtitle bold">Phone:</small>
+                                        </li>
+                                        <li>
+                                            <div class="form-group input-group-sm">
+                                                <input type="text" name="first_name" class="form-control"
+                                                    placeholder="+01010101">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="light_blue_line mt-2 mb-2"></div>
+                                        </li>
+                                        <li class="py-0">
+                                            <small class="card-subtitle bold">Customer type:</small>
+                                        </li>
+
+                                        <li>
+                                            <div class="form-group input-group-sm">
+                                                <input type="text" disabled name="first_name" class="form-control"
+                                                    placeholder="Home buyer">
+                                            </div>
+                                        </li>
+
+
+                                    </ul>
+
+                                </div>
+                                <div class="bd-highlight col-sm-6 col">
+                                    <button class="btn btn-secondary round-btn mains-btn">Save</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="tab-pane" id="section-2">
+
+
+                </div>
+                <div class="tab-pane" id="section-3">
+                    <div class="form-group">
+                        <label for="Select Basement Condition"></label>
+                        <select class="select2-selection--single form-control" name="state">
+                            <option value="" disabled="" selected="">Select
+                                Basement
+                                Condition
+                            </option>
+                            <option value="">Finished</option>
+                            <option value="">Unfinished</option>
+                            <option value="">No Basement</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="tab-pane" id="section-4">
+                    Section 4
+                </div>
+                <div class="tab-pane" id="section-5">
+                    Section 5
+                </div>
+                <div class="tab-pane" id="section-6">
+                    Section ^
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer class="footer mt-auto d-flex justify-content-center align-items-center">
+        <div class="container">
+            <ul class="list-inline botton-zero">
+                <li class="list-inline-item"><a href="#">Terms of Service</a></li>
+                <li class="list-inline-item">|</li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                <li class="list-inline-item">|</li>
+
+                <li class="list-inline-item"> Copyright© Ziprenovation 2020 </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <!-- Link JS app file -->
+    <script src="./assets/js/app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+
+        $('.nav li a').click(function () {
+            $('.nav li a').removeClass('sideactive')
+            $(this).addClass('sideactive');
+        });
+    </script>
+    <script>
+        // step form
+        $(document).ready(function () {
+            $("#preview").hide();
+            $("#edit_btn").click(function () {
+                $("#edit").hide(2000);
+                $("#preview").show(2000);
+            });
+            $("#cancel").click(function () {
+                $("#preview").hide(2000);
+                $("#edit").show(2000);
+            });
+        });
+        // select 2
+        $(document).ready(function () {
+            $('.select2-selection--single').select2(
+                {
+                    minimumResultsForSearch: -1,
+                    dropdownAutoWidth: true
+                }
+            );
+        });
+    </script>
+</body>
+
+</html>

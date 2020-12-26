@@ -73,19 +73,13 @@
         <div class="container-xl pb-5 pt-4">
             <div class="row">
                 <div class="col-sm-12 mt-5">
-                    <h2 class="bold text-center  display-3 text-left contractor-h2">Selected Work</h2>
+                    <h2 class="bold text-center  display-4 text-left contractor-h2">Selected Work</h2>
 
                     <div class="hrblue mb-5 mt-3"></div>
 
-                    <h1 class="bold text-center display-4 sm-title-sm">Our experience consists of work on small
+                    <h1 class="text-center display-4 sm-title-sm">Our experience consists of work on small
                         one-bedroom apartments up to ultra-luxury properties.</h1>
-                    <div class="row no-gutters">
-                        <div class="col-sm-12 d-flex justify-content-center text-center">
-                            <button class="btn btn-small-mb btn-lg round-btn btn-block main-btn btn-p mt-5 max-300hs">
-                                Sign In
-                            </button>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -98,13 +92,13 @@
                 <div class="col-lg-12">
                     <ul class="nav nav-pills nav-pills-icons w-100" role="tablist">
                         <li class="nav-item col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center ">
-                            <a class="bold gallery-style btn-style text-center block-gallery pointer d-flex justify-content-center align-items-center rounded_corners card-shadow border-card"
+                            <a class="bold active gallery-style btn-style text-center block-gallery pointer active d-flex justify-content-center align-items-center rounded_corners card-shadow border-card "
                                 href="#dashboard-1" role="tab" data-toggle="tab" style="text-decoration: none;">
                                 Inspiring Living Rooms
                             </a>
                         </li>
                         <li class="nav-item col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center ">
-                            <a class="bold gallery-style btn-style text-center block-gallery pointer d-flex justify-content-center align-items-center rounded_corners card-shadow border-card"
+                            <a class="bold active gallery-style btn-style text-center block-gallery pointer d-flex justify-content-center align-items-center rounded_corners card-shadow border-card"
                                 href="#schedule-1" role="tab" data-toggle="tab" style="text-decoration: none;">
                                 Stunning Kitchens
                             </a>
@@ -136,7 +130,7 @@
                     </ul>
                     <div class="tab-content tab-space mt-5">
                         <div class="tab-pane active" id="dashboard-1">
-
+                        
                             <div class="container">
 
                                 <hr class="mt-2 mb-5">
@@ -260,7 +254,8 @@
                             <span class="bold">
                                 Receive $500
 
-                            </span></h2>
+                            </span>
+                        </h2>
                         <button class="btn btn-small-mb btn-lg round-btn btn-block main-btn btn-p mt-5">Refer a home
                             owner</button>
 
@@ -330,6 +325,13 @@
                     minimumResultsForSearch: -1
                 }
             );
+        });
+    </script>
+
+    <script>
+        $('.nav-pills li a').click(function () {
+            $('.nav-pills li a').removeClass('pactive')
+            $(this).addClass('pactive');
         });
     </script>
 
